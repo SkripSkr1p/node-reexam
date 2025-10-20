@@ -1,0 +1,12 @@
+{
+  "name": "ithub-reexam-node",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch ./src/scheduler.js",
+    "test": "vitest --watch"
+  },
+  "devDependencies": {
+    "biome": "^0.3.3",
+    "vitest": "^3.1.1"
+  }
+}
